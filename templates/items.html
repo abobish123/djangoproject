@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Товары</title>
+</head>
+<body>
+<br> <h1> Список товаров </h1>
+<ol>
+    {%for item in items%}
+    <li><a href="/item/{{item.id}}">{{item.name}}</a></li>
+    {%endfor%}
+</ol>
+<!--<ol>-->
+<!--&lt;!&ndash;    <li><a href="http://127.0.0.1:8000/item/1"> Кроссовки abibas </a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;   <li> <a href="http://127.0.0.1:8000/item/2"> Куртка кожаная</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;    <li><a href="http://127.0.0.1:8000/item/3">Coca-cola 1 литр</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;   <li> <a href="http://127.0.0.1:8000/item/4">Картофель фри</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;    <li><a href="http://127.0.0.1:8000/item/5">Кепка</a></li>&ndash;&gt;-->
+<!--</ol>-->
+</body>
+</html>
